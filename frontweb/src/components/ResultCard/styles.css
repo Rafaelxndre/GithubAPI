@@ -21,5 +21,21 @@ font-weight: bold;
 color: #515151;
 font-size: 14px;
 margin: 0;
+}
 
+@media (max-width: 576px) {
+
+  .result-container {
+    padding: 0px;
+    align-items: center;
+    padding-left: 2px;
+  }
+
+  .result-title {
+    font-size: 13px;
+  }
+
+  .result-description {
+    font-size: 11px;
+  }
 }

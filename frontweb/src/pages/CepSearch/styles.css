@@ -32,7 +32,7 @@
   font-size: 16px;
   text-align: center;
   height: 40px;
-  width: 300px;
+  width: 350px;
   margin-bottom: 25px;
 }
 
@@ -80,3 +80,51 @@
 .card-info h6 {
   padding: 5px 0 20px 0;
 }
+
+@media (max-width: 576px) {
+
+  .cep-search-container {
+    font-size: 15px;
+  }
+
+  .cep-search-container h1{
+    font-size: 1.2em;    
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .card-github {
+    display: block;
+    height: 600px;
+  }
+
+  .card-img {
+    padding-left: 4px;
+  }
+
+  .card-info {
+    margin-top: 0;
+    width: 100%;
+  }
+ 
+}
+
+@media (max-width: 768px) {
+  .card-github {
+    display: block;
+    height: 600px;
+  }
+  .card-info {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .card-img{
+    justify-content: center;
+    padding: 40px;
+    width: 100%;
+  }
+}
+
