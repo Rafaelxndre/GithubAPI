@@ -1,0 +1,14 @@
+.btn-icon, .btn-icon:hover {
+    width: 101px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #1890FF;
+}
+
+.btn-icon h6 {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+}
