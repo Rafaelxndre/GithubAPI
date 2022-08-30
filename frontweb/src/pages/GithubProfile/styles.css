@@ -1,11 +1,11 @@
-.cep-search-container {
+.git-search-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
 }
 
-.cep-search-container h1 {
+.git-search-container h1 {
   font-weight: bold;
   margin: 50px 0 15px 0;
 }
@@ -83,11 +83,11 @@
 
 @media (max-width: 576px) {
 
-  .cep-search-container {
+  .git-search-container {
     font-size: 15px;
   }
 
-  .cep-search-container h1{
+  .git-search-container h1{
     font-size: 1.2em;    
   }
 

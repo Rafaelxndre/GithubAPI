@@ -15,7 +15,7 @@ type Address = {
   avatar_url: string;
 };
 
-const GithubSearch = () => {
+const GithubProfile = () => {
   const [formData, setFormData] = useState<FormData>({
     github: "",
   });
@@ -46,15 +46,15 @@ const GithubSearch = () => {
   };
 
   return (
-    <div className="cep-search-container">
+    <div className="git-search-container">
       <div className="container search-container">
         <h1 className="text-title">Encontre um perfil no Github</h1>
         <form onSubmit={handleSubmit}>
           <div className="form-container">
-            <input
+            <input //input
               type="text"
-              name="github"
-              value={formData.github}
+              name="github" //nome do campo
+              value={formData.github} //valor digitado no campo
               className="search-input"
               placeholder="Usuário Github"
               onChange={handleChange}
@@ -88,4 +88,4 @@ const GithubSearch = () => {
   );
 };
 
-export default GithubSearch;
+export default GithubProfile;
